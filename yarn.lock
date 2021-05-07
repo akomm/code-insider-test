@@ -7,6 +7,8 @@ __metadata:
 "@code-insider-test/app@workspace:packages/app":
   version: 0.0.0-use.local
   resolution: "@code-insider-test/app@workspace:packages/app"
+  dependencies:
+    "@code-insider-test/lib": "workspace:packages/lib"
   languageName: unknown
   linkType: soft
 

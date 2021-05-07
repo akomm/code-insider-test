@@ -1,5 +1,8 @@
 {
     "name": "@code-insider-test/app",
     "version": "0.0.1",
-    "private": true
+    "private": true,
+    "dependencies": {
+        "@code-insider-test/lib": "workspace:packages/lib"
+    }
 }
